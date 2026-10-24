@@ -1,0 +1,5 @@
+# Local development only. Production must explicitly use the prod profile.
+app:
+  bootstrap:
+    enabled: ${APP_BOOTSTRAP_ENABLED:true}
+    password: ${APP_ADMIN_PASSWORD:Admin@123456}
